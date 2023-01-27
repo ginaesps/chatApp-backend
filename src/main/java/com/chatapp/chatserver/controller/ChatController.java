@@ -12,7 +12,7 @@ public class ChatController {
 
     //create dynamic topics in spring
     @Autowired
-    private SimpMessagingTemplate simpMessagingTemplate
+    private SimpMessagingTemplate simpMessagingTemplate;
 
     @MessageMapping("/private-message")
     public Message receivePrivateMessage(@Payload Message message) {
