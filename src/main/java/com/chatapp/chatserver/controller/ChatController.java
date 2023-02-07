@@ -1,6 +1,6 @@
 package com.chatapp.chatserver.controller;
 
-import com.chatapp.chatserver.controller.model.Message;
+import com.chatapp.chatserver.model.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;

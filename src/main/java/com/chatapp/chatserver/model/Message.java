@@ -1,4 +1,4 @@
-package com.chatapp.chatserver.controller.model;
+package com.chatapp.chatserver.model;
 
 import lombok.*;
 
